@@ -1,0 +1,7 @@
+characterLength:
+  handler: handlers/character-length.handler
+  timeout: 30
+  events:
+    - http:
+        path: charcheck
+        method: post

@@ -1,0 +1,25 @@
+{
+  "name": "generator-serverless-architecture-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm install; serverless offline start --stage local",
+    "unit-test": "mocha --recursive test/unit/",
+    "integration-test": "mocha --recursive test/integration/"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "api",
+    "serverless",
+    "lambda",
+    "AWS"
+  ],
+  "author": "Matheus Fidelis",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.501.0",
+    "bluebird": "^3.5.5",
+    "yamljs": "^0.3.0"
+  }
+}
